@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sunwave Logistics</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header, section, footer {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+      background: white;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+    nav#language-switch {
+      text-align: center;
+      padding: 15px;
+      background: #0066cc;
+    }
+    nav#language-switch a {
+      color: #fff;
+      margin: 0 10px;
+      font-weight: bold;
+      text-decoration: none;
+    }
+    h1, h2 {
+      color: #0066cc;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    blockquote {
+      background: #f9f9f9;
+      border-left: 6px solid #0066cc;
+      margin: 20px 0;
+      padding: 15px;
+      font-style: italic;
+      border-radius: 6px;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      font-size: 16px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    button {
+      padding: 12px;
+      background-color: #0066cc;
+      color: #fff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #004b99;
+    }
+    @media (max-width: 600px) {
+      header, section, footer {
+        padding: 15px;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <nav id="language-switch">
+    <a href="#en">🇬🇧 English</a> | <a href="#ro">🇷🇴 Română</a>
+  </nav>
+
+  <!-- English Version -->
+  <div id="en">
+    <header>
+      <h1>Sunwave Logistics</h1>
+      <p>Moving your business forward — safely and on time</p>
+    </header>
+
+    <section>
+      <h2>About the Company</h2>
+      <p>Founded in October 2019, Sunwave Logistics LLC is a registered Florida company specializing in freight transportation and logistics solutions across multiple continents.</p>
+      <ul>
+        <li>Legal HQ: 2750 Taylor Ave, Suite A52, Orlando, FL</li>
+        <li>EIN: 84-3629407</li>
+        <li>Founded by Melecia Thomas</li>
+        <li>Partners in Romania, Moldova, Vietnam, China</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Services</h2>
+      <ul>
+        <li>📦 Freight Transportation</li>
+        <li>🚛 Express Delivery</li>
+        <li>🏢 Warehouse Management</li>
+        <li>🛃 Customs Clearance</li>
+        <li>🧩 Transport Support Operations</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Client Reviews</h2>
+      <blockquote>“Reliable shipping partner with strong tracking tools.” — ★★★★★ Logistics Manager, Atlanta GA</blockquote>
+      <blockquote>“Efficient customs handling and friendly staff.” — ★★★★★ Client from Bucharest</blockquote>
+      <blockquote>“Fast and safe delivery. No hidden fees.” — ★★★★★ Importer, Moldova</blockquote>
+    </section>
+
+    <section>
+      <h2>Leave a Review</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="text" name="location" placeholder="Location" required />
+        <textarea name="message" placeholder="Your Review" required></textarea>
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Pay Online</h2>
+      <p>Secure your booking with a deposit</p>
+      <a href="https://buy.stripe.com/test_cN26qA6YW3sb5UkeUU" target="_blank">
+        <button>Pay $100</button>
+      </a>
+    </section>
+
+    <section id="location">
+      <h2>Our Locations</h2>
+      <ul>
+        <li>🏢 Orlando Office — 2750 Taylor Ave, FL</li>
+        <li>🏭 Romania Hub — CTPark Bucharest South</li>
+        <li>🏬 Moldova Division — via Dita EstFarm</li>
+      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..." width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    </section>
+    
+    <footer>
+      <p>© 2025 Sunwave Logistics LLC</p>
+    </footer>
+  </div>
+
+  <!-- Romanian Version -->
+  <div id="ro" style="display:none;">
+    <header>
+      <h1>Sunwave Logistics</h1>
+      <p>Mutăm afacerea ta înainte — în siguranță și la timp</p>
+    </header>
+
+    <section>
+      <h2>Despre companie</h2>
+      <p>Sunwave Logistics SRL este o companie internațională fondată în 2019, cu sediul principal în Orlando, Florida, și operațiuni logistice în România, Moldova și Asia.</p>
+      <ul>
+        <li>📍 Adresă legală: 2750 Taylor Ave, Orlando, FL</li>
+        <li>📦 Parteneri: Dita EstFarm, CTPark, Waystar</li>
+        <li>🌐 Activă în SUA, România, Moldova, Vietnam</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Servicii</h2>
+      <ul>
+        <li>📦 Transport de marfă</li>
+        <li>🚛 Livrare rapidă</li>
+        <li>🏢 Administrarea depozitelor</li>
+        <li>🛃 Vamă și declarații</li>
+        <li>🧩 Suport logistic</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Recenzii clienți</h2>
+      <blockquote>„Livrare fiabilă și echipă profesionistă.” — ★★★★★ Client din București</blockquote>
+      <blockquote>„Prețuri corecte și comunicare excelentă.” — ★★★★★ Client Moldova</blockquote>
+      <blockquote>„Transport sigur și rapid.” — ★★★★★ Partener România</blockquote>
+    </section>
+
+    <section>
+      <h2>Lăsați o recenzie</h2>
+      <form>
+        <input type="text" name="name" placeholder="Nume" required />
+        <input type="text" name="location" placeholder="Localitate" required />
+        <textarea name="message" placeholder="Recenzia dvs." required></textarea>
+        <button type="submit">Trimiteți</button>
+      </form>
+    </section>
+
+    <section>
+      <h2>Plată online</h2>
+      <p>Rezervați livrarea cu un avans</p>
+      <a href="https://buy.stripe.com/test_cN26qA6YW3sb5UkeUU" target="_blank">
+        <button>Plătiți $100</button>
+      </a>
+    </section>
+
+    <section id="location">
+      <h2>Locații</h2>
+      <ul>
+        <li>🏢 Orlando — 2750 Taylor Ave</li>
+        <li>🏭 București — CTPark South</li>
+        <li>🏬 Chișinău — Dita EstFarm</li>
+      </ul>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d..." width="100%" height="300" style="border:0;" allowfullscreen></iframe>
+    </section>
+
+    <footer>
+      <p>© 2025 Sunwave Logistics SR
